@@ -5,10 +5,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <button onClick={()=>setCount(count+1)} className='bg-blue-500 rounded p-5 text-center'>Hello {count}</button>
-    </>
+    <main>
+      <h1 className='text-5xl text-orange-500 font-bold font-robert-medium text-violet-300'>Welcome to Awards</h1>
+   </main>
   );
 }
 
