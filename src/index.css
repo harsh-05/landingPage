@@ -32,3 +32,10 @@ body {
     src:url('/fonts/robert-regular.woff2') format('woff2');
     }
 }
+
+
+@layer utilities {
+    .absolute-center {
+        
+    }
+}
